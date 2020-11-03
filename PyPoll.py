@@ -47,6 +47,7 @@ file_to_load = os.path.join("Resources", "election_results.csv")
 # Assign a variable to save the file to a path.
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
+<<<<<<< HEAD
 # Initialize a total vote counter.
 total_votes = 0
 
@@ -118,3 +119,14 @@ with open(file_to_load) as election_data:
         f"Winning Percentage: {winning_percentage:.1f}%\n"
         f"-------------------------\n")
 print(winning_candidate_summary)
+=======
+# Open the election results and read the file.
+with open(file_to_load) as election_data:
+
+    # To do: read and analyze the data here.
+    # Read the file object with the reader function.
+    file_reader = csv.reader(election_data)
+    # Print the header row.
+    headers = next(file_reader)
+    print(headers)
+>>>>>>> 247a5317d30861831dea3882eb8d81347fcc9288

@@ -10,19 +10,19 @@ The purpose of this analysis was to retrieve data for an election dataset in ord
 - The names of the individual candidates in the election and the total number of votes each candidate won.
 - The winner of the election based on total number of votes received and their percentage of their total vote.
 
-Using Python, `for` loops and conditional statements with membership and logical operators were implmented to find the requested results. in addition, print statements were used to print out the candidate and county election results. The findings were saved to a text file entitled, "Elections Results," which presented the information in a clear and understandable manner. 
+Using Python, `for` loops and `conditional` statements with membership and logical operators were implmented to find the requested results. In addition, `print` statements were used to print out the candidate and county election results. The findings were saved to a text file entitled, "Elections Results," which presented the information in a clear and understandable manner. 
 
 ## Election-Audit Results
  - How many votes were cast in this congressional election?
     - The total number of votes was 369,711.
  - Provide a breakdown of the number of votes and the percentage of total votes for each county in the precinct.
     - The breakdown of the number of votes and the percentage of total votes for each county is as follows:
-    - ![]()
+    - ![](https://github.com/irenedepacina/Election_Analysis/blob/main/Resources/County_results.png)
  - Which county had the largest number of votes?
-    - **Denver** had the largest number of votes.
+    - **Denver** was the county with the largest number of votes.
  - Provide a breakdown of the number of votes and the percentage of the total votes each candidate received.
     - The breakdown of the number of votes and percentage for each candidates is as follows:
-    - ![]()
+    - ![](https://github.com/irenedepacina/Election_Analysis/blob/main/Resources/Candidates_results.png)
  - Which candidate won the election, what was their vote count, and what was their percentage of the total votes? 
     - The winner of the election was **Diana DeGette**. Her vote count and percentage of the total votes was 272,892 and 73.8% respectively.
 
